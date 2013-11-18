@@ -13,6 +13,10 @@ log = logging.getLogger("main    ")
 
 from code import readCode
 
+if len(argv) < 2:
+    log.error("I'm expecting .pas file to interpret as command-line argument!")
+    exit(1)
+
 code = readCode(argv[1])
 
 from lexer import lexems, SyntaxError
