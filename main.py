@@ -1,6 +1,4 @@
-# TODO:
-# 1. readln
-# 2. case
+#!/usr/bin/env python3
 
 from sys import argv, exit, stderr
 from os import devnull
