@@ -2,7 +2,9 @@ program Euc;
 var
     a, b, t: integer;
 begin
+    writeln('Enter first number:');
     a := readint();
+    writeln('Enter second number:');
     b := readint();
     if (a < b) then
     begin
@@ -23,7 +25,7 @@ begin
         end
     end
     writeln('GCD is ', a);
-    { here is a commentary:
-    writeln('41 / 17 = ', 41 / 17, ' or ', real_to_int(41 / 17)); 
-    }
+    { here is a commentary: }
+    { writeln('41 / 17 = ', 41 / 17, ' or ', real_to_int(41 / 17)); }
+    
 end
