@@ -8,9 +8,9 @@ Usage
 -----
 
 ```bash
-./main.py program.pas
+./main.py samples/fibbonacci.pas [-v]
 ```
 
 For detailed output use `-v` command-line argument.
-For language formal specification see `docs/specification_rus.txt` (Russian only).
 
+For language formal specification see `docs/specification_rus.txt` (Russian only).
